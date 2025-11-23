@@ -2,3 +2,14 @@ FROM almalinux:9
 LABEL course="docker" \
       Trainer="Haribabu" \
       author="naginenihari@gamil.com"
+
+
+
+
+
+
+## \ Slash should be given if are specifing mutliple LABELS
+## LABEL Instrction adds extra metadata to an image.
+## LABEL Instrction will not update any functionality
+## We can filter the image by using the lables.
+## Build the image and run this command: docker images --filter label=AUTHOR="naginenihari@gamil.com"
